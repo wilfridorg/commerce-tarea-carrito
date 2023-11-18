@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css"
+    integrity="sha384-nU14brUcp6StFntEOOEBvcJm4huWjB0OcIeQ3fltAfSmuZFrkAif0T+UtNGlKKQv" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/c26cd2166c.js"></script>
+
+  <title>M C . O</title>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">M C . O</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+
+
+        <div class="container-icon">
+          <div class="container-cart-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="icon-cart"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z"
+              />
+            </svg>
+            <div class="count-products">
+              <span id="contador-productos">0</span>
+            </div>
+          </div>
+  
+          <div class="container-cart-products hidden-cart">
+            <div class="row-product hidden">
+              <div class="cart-product">
+                <div class="info-cart-product">
+                  <span class="cantidad-producto-carrito">1</span>
+                  <p class="titulo-producto-carrito">AUTENTICO</p>
+                  <span class="precio-producto-carrito">$12.000</span>
+                </div>
+                <svg
+								xmlns="http://www.w3.org/2000/svg"
+								fill="none"
+								viewBox="0 0 24 24"
+								stroke-width="1.5"
+								stroke="currentColor"
+								class="icon-close" id = "icon-close" 
+							>
+								<path
+									stroke-linecap="round"
+									stroke-linejoin="round"
+									d="M6 18L18 6M6 6l12 12"
+								/>
+							</svg>
+
+                
+              </div>
+            </div>
+  
+            <div class="cart-total hidden">
+              <h3>Total:</h3>
+              <span class="total-pagar">$200</span>
+            </div>            
+            <p class="cart-empty">El carrito está vacío</p>          
+          </div>
+        </div>
+
+
+        <ul class="navbar-nav m-auto my-2 my-lg-0 ">
+
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">TENDENCIA</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">M C. O</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACTO</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn0" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <section class="main">
+    <div class="container py-5">
+      <div class="row py-5">
+        <div class="col lg-7 pt-5 text-center ">
+          <h1 class="pt-5" id="titles">¡Tu estilo a otro nivel!</h1>
+          <button class="btn1 mt-3">Mejores opciones</button>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="product">
+    <div class="container py-5">
+      <div class="row py-5 ">
+        <div class="col-lg-4 m-auto text-center">
+          <h1>TENDENCIA</h1>
+          <h6 style="color: pink;">lore bien corto ups ohhs</h6>
+        </div>
+      </div>
+      <div class="row contenedor-yes">
+        <div class="col-lg-3  text-center">
+          <div class="card  border-0 bg-light mb-2 ">
+            <div class="card-body ">
+              <img src="imagenes/Screenshot_55.jpg" class="img-fluid" alt="">
+            </div>
+            <h6>AUTENTICO</h6>
+            <p>$12000</p>
+            <div class="info-product">
+              <button class="btn btn-danger button">Añadir al carrito</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 text-center">
+          <div class="card  border-0 bg-light mb-2 ">
+            <div class="card-body">
+              <img src="imagenes/Screenshot_6.jpg" class="img-fluid" alt="">
+            </div>
+            <h6>ATREVIDO</h6>
+            <p>$12000</p>
+            <div class="info-product">
+              <button class="btn btn-danger button">Añadir al carrito</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 text-center">
+          <div class="card border-0 bg-light mb-2 ">
+            <div class="card-body">
+              <img src="imagenes/Screenshot_7.jpg" class="img-fluid" alt="">
+            </div>
+            <h6>IDEAL</h6>
+            <p>$12000</p>
+            <div class="info-product">
+              <button class="btn btn-danger button">Añadir al carrito</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 text-center">
+          <div class="card border-0 bg-light mb-2 ">
+            <div class="card-body">
+              <img src="imagenes/Screenshot_11.jpg" class="img-fluid" alt="">
+            </div>
+            <h6>EXTRAVAGANTE</h6>
+            <p>$12000</p>
+            <div class="info-product">
+              <button class="btn btn-danger button">Añadir al carrito</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="container py-5">
+      <div class="row py-4">
+        <div class="col-lg-8 m-auto text-center">
+          <h1>Bienvenido a nuestra tienda</h1>
+          <h6 style="color: pink;">lore bien corto ups ohhs</h6>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="imagenes/special_product_1.jpg" class="img-fluid mb-3" alt="">
+          <h5>tendencia masculina</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corporis modi ad sed voluptatum cupiditate
+            expedita, tempore adipisci, voluptas nesciunt tenetur, nobis ipsum vel illum odit. Aut fugiat alias ullam.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img src="imagenes/special_product_2.jpg" class="img-fluid mb-3" alt="">
+          <h5>tendencia masculina</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corporis modi ad sed voluptatum cupiditate
+            expedita, tempore adipisci, voluptas nesciunt tenetur, nobis ipsum vel illum odit. Aut fugiat alias ullam.
+          </p>
+        </div>
+        <div class="col-lg-4">
+          <img src="imagenes/special_product_3.jpg" class="img-fluid mb-3" alt="">
+          <h5>tendencia masculina</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat corporis modi ad sed voluptatum cupiditate
+            expedita, tempore adipisci, voluptas nesciunt tenetur, nobis ipsum vel illum odit. Aut fugiat alias ullam.
+          </p>
+        </div>
+      </div>
+      <div class="row pt-3">
+        <div class="col-lg-6 text-center m-auto">
+          <button class="btn1">haz tu compra</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-5 m-auto text-center ">
+          <h1>CONTACTANOS</h1>
+          <h6 style="color: pink;">Es un placer atenderte</h6>
+        </div>
+      </div>
+      <div class="row py-5">
+        <div class="col-lg-9 m-auto">
+          <div class="row">
+            <div class="col-lg-4">
+              <h6>lugar</h6>
+              <p>Cartagena de Indias</p>
+            </div>
+            <div class="col-lg-4">
+              <h6>Telefonos</h6>
+              <p>325264114</p>
+            </div>
+            <div class="col-lg-4">
+              <h6>Correo electronico</h6>
+              <p>mc.o@hotmail.com</p>
+            </div>
+          </div>
+          <div class="col lg-7">
+            <div class="row">
+              <div class="col lg 6">
+                <input type="text" class="form-control bg-light" placeholder="primer nombre">
+              </div>
+              <div class="col lg 6">
+                <input type="text" class="form-control bg-light" placeholder="primer apellido">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 py-3">
+                <textarea name="" cols="10" rows="5" class="form-control bg-light"
+                  placeholder="ingresa tu informacion"></textarea>
+              </div>
+            </div>
+            <button class="btn1">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="news py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9 m-auto text-center">
+          <h1>Te enviaremos información de nuestro catálogo</h1>
+          <input type="text" class="px-3" placeholder="Ingresa tu correo electrónico">
+          <button class="btn2">Enviar</button>
+        </div>
+      </div>
+      <div class="row pt-5">
+        <div class="col-lg-11 m-auto">
+          <div class="row">
+            <div class="col-lg-4 py-3">
+              <h5 class="pb-3">hola</h5>
+              <p>regular</p>
+              <p>pista</p>
+              <p>eudhv</p>
+            </div>
+            <div class="col-lg-4 py-3">
+              <h5 class="pb-3">hola</h5>
+              <p>regular</p>
+              <p>pista</p>
+              <p>eudhv</p>
+            </div>
+            <div class="col-lg-4 py-3">
+              <h5 class="pb-3">hola</h5>
+              <p>regular</p>
+              <p>pista</p>
+              <p>eudhv</p>
+            </div>
+            <div class="col-lg-4 py-3">
+              <h5 class="pb-3">hola</h5>
+              <span> <i class="fab fa-facebook"></i></span>
+              <span> <i class="fab fa-instagram"></i></span>
+              <span> <i class="fab fa-youtube"></i></span>
+              <span> <i class="fab fa-twitter"></i></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+      <p class="text-center">copy right</p>
+    </div>
+  </section>
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+
+  <!-- Option 2: Separate Popper and Bootstrap JS -->
+  <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

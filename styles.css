@@ -1,0 +1,288 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.navbar-brand{
+  font-size: 2rem;
+  color: black;
+  font-family: 'Lobster', sans-serif;
+}
+.navbar-brand:hover{
+  color: black;
+}
+.nav-link{
+  margin-right: 10px;
+  margin-left: 10px;
+  color: black;
+  font-family: 'Rubik', sans-serif;
+  text-transform: uppercase;
+
+
+}
+
+.container-icon{
+  position: relative;
+  margin-left: 80px;
+}
+
+.count-products{
+  position: absolute;
+  top: 55%;
+  right: 0;
+
+  background-color: #000;
+  color: #fff;
+  width: 25px;
+  height: 25px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  
+}
+
+#contador-productos{
+  font-size:10px;
+}
+
+.container-cart-products{
+  position: absolute;
+  top: 50px;
+  right: 0;
+
+   background-color: #f5efef;
+  /*height: 200px;
+  width: 400px; */
+  z-index: 1;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
+  border-radius: 10px;
+  
+}
+
+.cart-product{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+
+  border-bottom: 1px solid rgba(0, 0, 0, 0.20);
+
+}
+
+.cart-empty{
+  width: 140px;
+  height: 20px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.icon-close {
+  width: 25px;
+  height: 25px;
+  fill: black; /* Ajusta el color según tus necesidades */
+  transition: fill 0.3s; /* Agrega una transición para un cambio suave de color */
+  cursor: pointer;
+}
+
+.icon-close:hover {
+  fill: rgb(165, 114, 114); /* Ajusta el color al pasar el mouse */
+}
+
+
+.info-cart-product{
+  display: flex;
+  justify-content: space-between;
+  flex: 0.8;
+}
+
+.titulo-producto-carrito{
+  font-size: 16px;
+  margin-top:2px;
+}
+
+.precio-producto-carrito{
+  font-weight: 700;
+  font-size: 16px;
+  margin-left: 6px;
+  margin-right: 15px;
+  margin-top: 2px;
+}
+
+.cantidad-producto-carrito{
+  font-weight: 700;
+  font-size: 16px;
+  margin-right: 25px;
+}
+
+.icon-cart{
+  width: 45px;
+  height: 25px;
+}
+
+.icon-cart:hover{
+  stroke: rgb(132, 58, 15)(225, 0, 255);
+  cursor: pointer;
+}
+
+.cart-total{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+  gap: 20px;
+}
+
+.cart-total h3{
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.total-pagar{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.hidden-cart{
+  display: none;
+}
+
+
+/* .carrito{
+  margin-left: 50px;
+} */
+/* .container-icon {
+  position: relative;
+  display: inline-block;
+  margin-left: 85PX;
+}
+
+.count-products {
+  position: absolute;
+  top: 0;
+  right: -10px; /* Ajusta según sea necesario */
+  /*background-color: red; /* Color de fondo del contador */
+ /* color: white; /* Color del texto del contador */
+  /*border-radius: 50%; /* Hace que el contador tenga forma circular */
+  /*padding: 4px 8px; /* Ajusta según sea necesario */
+
+
+
+.nav-link:hover{
+  color: black;
+
+
+}
+.search{
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  border: 2px solid pink;
+  margin-right: -35px;
+}
+.btn0{
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background: pink;
+  color: white;
+  border-radius: 60px;
+  font-weight: 700;
+  
+
+}
+.main{
+  background: url('imagenes/Captura de pantalla 2023-11-11 005350.jpg') no-repeat;
+
+  background-size: cover;
+  height: 100vh;
+  background-position: 50% 50%;
+  width: 100%;
+
+
+}
+.main h1{
+
+  font-size: 4rem;
+  font-weight: 700;
+  
+}
+
+.btn1{
+  height: 45px;
+  width: 30%;
+  border: none;
+  outline: none;
+  background-color: pink;
+  color: white;
+  font-weight: 700;
+  border-radius: 60px;
+
+}
+h1{
+  font-weight: 700;
+}
+
+.btn1:hover{
+  background-color: rgb(246, 143, 160);
+  transition: 0.8s;
+ 
+
+}
+.card:hover{
+  box-shadow: 3px -8px 22px 1px rgba(240,201,201,0.75);
+  -webkit-box-shadow: 3px -8px 22px 1px rgba(240,201,201,0.75);
+  -moz-box-shadow: 3px -8px 22px 1px rgba(240,201,201,0.75);
+  
+}
+.hidden{
+  display: none;
+}
+.card-body{
+  transition:  1.3s;
+  overflow: hidden;
+}
+.card-body:hover{
+  transform: scale(1.1);
+}
+#titles{
+  margin-top: 150px;
+}
+.news{
+  background-color: black;
+  color: white;
+}
+.btn2{
+  height: 45px;
+  width: 100px;
+  background: white;
+  margin-left: -10px;
+  border: 2px solid white;
+  font-weight: 600;
+}
+.news input{
+  height: 45px;
+  width: 55%;
+  border: 2px solid white;
+  outline: none;
+  background: black;
+  color: white;
+  margin-top: 20px;
+  font-weight: 600;
+
+}
+.news::placeholder{
+  color: white;
+}
+.news p{
+  margin: 0;
+}
+.fab {
+  font-size: 2.5rem;
+  cursor: pointer;
+  padding-right: 5px;
+
+}
